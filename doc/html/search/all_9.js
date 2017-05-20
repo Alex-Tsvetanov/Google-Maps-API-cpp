@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['json',['json',['../namespacenlohmann.html#a2bfd99e845a2e5cd90aeaf1b1431f474',1,'nlohmann']]],
-  ['json_5fpointer',['json_pointer',['../classnlohmann_1_1basic__json_1_1json__pointer.html',1,'nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::json_pointer'],['../classnlohmann_1_1basic__json_1_1json__pointer.html#abaa66b0d30811b8a8670a673c686b75a',1,'nlohmann::basic_json::json_pointer::json_pointer()']]],
-  ['json_5freverse_5fiterator',['json_reverse_iterator',['../classnlohmann_1_1basic__json_1_1json__reverse__iterator.html',1,'nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::json_reverse_iterator&lt; Base &gt;'],['../classnlohmann_1_1basic__json_1_1json__reverse__iterator.html#a1270fe04d4801caf51e7464273305ba8',1,'nlohmann::basic_json::json_reverse_iterator::json_reverse_iterator(const typename base_iterator::iterator_type &amp;it) noexcept'],['../classnlohmann_1_1basic__json_1_1json__reverse__iterator.html#af04099cd32946ab37cfa6004ad5a7863',1,'nlohmann::basic_json::json_reverse_iterator::json_reverse_iterator(const base_iterator &amp;it) noexcept']]],
-  ['json_20for_20modern_20c_2b_2b',['JSON for Modern C++',['../md__home_alex_GIT_My_have_repo_LovecMaps_PublicTransport_api_lib_Google_Maps_API_external_libs_json_doc_index.html',1,'']]],
-  ['json_2dtest_2dsuite',['json-test-suite',['../md__home_alex_GIT_My_have_repo_LovecMaps_PublicTransport_api_lib_Google_Maps_API_external_libs_j879c9a43ffc8933e8ffc67adddae084a.html',1,'']]]
+  ['output_5fformat_2ehpp',['output_format.hpp',['../a00023.html',1,'']]],
+  ['output_5fformat_5ft',['output_format_t',['../a00048.html',1,'Google::Maps::API::output_format_t'],['../a00048.html#aee4b4f5757c465e4fdb7398a286daa57',1,'Google::Maps::API::output_format_t::output_format_t()']]],
+  ['output_5fformats',['output_formats',['../a00048.html#a53d106f6d688b90fcf744fd3764a73ab',1,'Google::Maps::API::output_format_t']]]
 ];
