@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['output_5fformat_5ft',['output_format_t',['../a00048.html#aee4b4f5757c465e4fdb7398a286daa57',1,'Google::Maps::API::output_format_t']]]
+  ['latitude',['Latitude',['../a00059.html#a4d2dcdbfa413c92d7a11fb7a280b5238',1,'Google::Maps::point']]],
+  ['longitude',['Longitude',['../a00059.html#a0fd1c4ec3f383385b8981629e0acb188',1,'Google::Maps::point']]]
 ];
