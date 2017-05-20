@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['main',['main',['../a00002.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'api.cpp']]],
-  ['mode_5ft',['mode_t',['../a00044.html#a9cbdbd6096f389a15acdbefa19490235',1,'Google::Maps::API::mode_t']]]
+  ['isnotvalid',['isNotValid',['../a00042.html#a0ed7c663d00601bb86dd56e55a5304a8',1,'Google::Languages']]],
+  ['isvalid',['isValid',['../a00042.html#a865e8f79f8de870b2e6eb5cf40b0fac9',1,'Google::Languages']]]
 ];

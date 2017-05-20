@@ -7,6 +7,7 @@
 
 #include <langs.hpp>
 #include <point.hpp>
+#include <points-operations.hpp>
 #include <output_format.hpp>
 #include <mode.hpp>
 
@@ -28,8 +29,8 @@ namespace Google
 						return this->lang; //default
 					return new_lang;
 				}
-			public:
 
+			public:
 				client (std::string k, std::string lang = "en-US")
 				{
 					if (Google::Languages::isNotValid (lang))
@@ -39,14 +40,22 @@ namespace Google
 					this->lang = lang;
 				}
 
-				std::string distance_matrix (output_format_t output, point origins, point destination, mode_t mode = mode_t("driving"), std::string lang = "")
+				std::string distance_matrix (output_format_t output, points origins, points destinations, mode_t mode = mode_t("driving"), std::string lang = "")
 				{
 					lang = choose (lang);
-					std::string hyperlink = "https://maps.googleapis.com/maps/api/distancematrix/" + output.get () + "?origins=" + origins.to_string () + "&destinations=" + destination.to_string () + "&mode=" + mode.get () + "&language=" + lang + "&key=" + this->key;
+					std::string hyperlink = "https://maps.googleapis.com/maps/api/distancematrix/" + output.get () + "?origins=" + origins.to_string () + "&destinations=" + destinations.to_string () + "&mode=" + mode.get () + "&language=" + lang + "&key=" + this->key;
 
 					std::clog << hyperlink << std::endl;
 
 					return curlpp::get (hyperlink);
+				}
+
+				json distance_matrix (points origins, points destinations, mode_t mode = mode_t("driving"), std::string lang = "")
+				{
+					lang = choose (lang);
+					std::string hyperlink = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + origins.to_string () + "&destinations=" + destinations.to_string () + "&mode=" + mode.get () + "&language=" + lang + "&key=" + this->key;
+
+					return json::parse (curlpp::get (hyperlink));
 				}
 			};
 		}

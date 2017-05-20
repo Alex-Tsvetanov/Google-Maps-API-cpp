@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['get',['get',['../a00044.html#a84b8a1aa0c105d5d6a530777dcd9d4b4',1,'Google::Maps::API::mode_t::get()'],['../a00048.html#a1cb355bdc5f1900bfd3ed472878eab4e',1,'Google::Maps::API::output_format_t::get()'],['../a00035.html#acbba0862979b2ae3a4d2a73369f42820',1,'curlpp::get()']]]
+  ['distance_5fmatrix',['distance_matrix',['../a00047.html#ac6a0c1904a585c4eb930c17e3dcf2ce9',1,'Google::Maps::API::client::distance_matrix(output_format_t output, points origins, points destinations, mode_t mode=mode_t(&quot;driving&quot;), std::string lang=&quot;&quot;)'],['../a00047.html#a8682b0c7b0597c2f7f0585c314459418',1,'Google::Maps::API::client::distance_matrix(points origins, points destinations, mode_t mode=mode_t(&quot;driving&quot;), std::string lang=&quot;&quot;)']]]
 ];

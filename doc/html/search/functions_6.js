@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['point',['point',['../a00052.html#abcf782dee7c73565e3db32b3d3d8c3f7',1,'Google::Maps::point::point(float x, float y)'],['../a00052.html#a57f031ce9ddb5cc80eb5ec3f02ee0641',1,'Google::Maps::point::point(std::string name)']]]
+  ['main',['main',['../a00002.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'api.cpp']]],
+  ['mode_5ft',['mode_t',['../a00051.html#a9cbdbd6096f389a15acdbefa19490235',1,'Google::Maps::API::mode_t']]]
 ];

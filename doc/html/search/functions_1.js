@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['distance_5fmatrix',['distance_matrix',['../a00040.html#a2167437cf0c3cdc7fa9e9c70643a27f4',1,'Google::Maps::API::client']]]
+  ['choose',['choose',['../a00047.html#ab9af6c85cf06cff7e2e877c7ed1db179',1,'Google::Maps::API::client']]],
+  ['client',['client',['../a00047.html#aa4e453192444e3ed3ae486036e852f03',1,'Google::Maps::API::client']]]
 ];
