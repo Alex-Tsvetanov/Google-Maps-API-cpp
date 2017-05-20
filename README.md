@@ -1,4 +1,4 @@
-[![Documentation](https://img.shields.io/badge/docs-doxygen-blue.svg)](http://nlohmann.github.io/json)
+[![Documentation](https://img.shields.io/badge/docs-doxygen-blue.svg)](https://rawgit.com/Alex-Tsvetanov/Google-Maps-API-cpp/master/doc/html/index.html)
 [![license](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/Alex-Tsvetanov/Google-Maps-API-cpp/blob/master/LICENSE)
 [![Github Releases](https://img.shields.io/github/release/Alex-Tsvetanov/Google-Maps-API-cpp.svg)](https://github.com/Alex-Tsvetanov/Google-Maps-API-cpp/releases)
 [![Github Issues](https://img.shields.io/github/issues/Alex-Tsvetanov/Google-Maps-API-cpp.svg)](http://github.com/Alex-Tsvetanov/Google-Maps-API-cpp/issues)
