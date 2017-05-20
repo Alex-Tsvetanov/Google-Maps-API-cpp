@@ -14,12 +14,15 @@ namespace Google
 				static const std::string modes [4];
 				unsigned short index;
 			public:
-				mode_t (std::string a = "xml")
+				mode_t (std::string a)
 				{
 					bool in;
 					for (unsigned short i = 0 ; i < sizeof(modes)/sizeof(modes[0]) ; i ++)
 						if (in = (a == modes [i]))
+						{
 							index = i;
+							break;
+						}
 					if (!in)
 						throw std::range_error ("Mode is invalid");
 				}

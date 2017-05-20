@@ -1,9 +1,9 @@
+#pragma once 
 #include <stdexcept>
 #include <string>
 #include <sstream>
 
-#include <curlpp/cURLpp.hpp>
-#include <curlpp/Options.hpp>
+#include <ex/curl.hpp>
 
 #include <langs.hpp>
 #include <point.hpp>
@@ -30,7 +30,7 @@ namespace Google
 				}
 			public:
 
-				client (std::string k, std::string lang = "en-EN")
+				client (std::string k, std::string lang = "en-US")
 				{
 					if (Google::Languages::isNotValid (lang))
 						throw std::range_error ("Initial language is not valid"); 
@@ -44,9 +44,9 @@ namespace Google
 					lang = choose (lang);
 					std::string hyperlink = "https://maps.googleapis.com/maps/api/distancematrix/" + output.get () + "?origins=" + origins.to_string () + "&destinations=" + destination.to_string () + "&mode=" + mode.get () + "&language=" + lang + "&key=" + this->key;
 
-					std::ostringstream os;
-					os << curlpp::options::Url(hyperlink);
-					return os.str ();
+					std::clog << hyperlink << std::endl;
+
+					return curlpp::get (hyperlink);
 				}
 			};
 		}
