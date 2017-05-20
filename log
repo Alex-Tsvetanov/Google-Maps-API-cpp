@@ -1,0 +1,181 @@
+http://maps.google.com/maps/api/geocode/json?address=Sofia
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sofia",
+               "short_name" : "Sofia",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Sofia City Province",
+               "short_name" : "Sofia City Province",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Sofia, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.7877752,
+                  "lng" : 23.4569049
+               },
+               "southwest" : {
+                  "lat" : 42.4900111,
+                  "lng" : 23.1909885
+               }
+            },
+            "location" : {
+               "lat" : 42.6977082,
+               "lng" : 23.3218675
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.7877752,
+                  "lng" : 23.4569049
+               },
+               "southwest" : {
+                  "lat" : 42.6030891,
+                  "lng" : 23.1909885
+               }
+            }
+         },
+         "place_id" : "ChIJ9Xsxy4KGqkARYF6_aRKgAAQ",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+
+{"results":[{"address_components":[{"long_name":"Sofia","short_name":"Sofia","types":["locality","political"]},{"long_name":"Sofia City Province","short_name":"Sofia City Province","types":["administrative_area_level_1","political"]},{"long_name":"Bulgaria","short_name":"BG","types":["country","political"]}],"formatted_address":"Sofia, Bulgaria","geometry":{"bounds":{"northeast":{"lat":42.7877752,"lng":23.4569049},"southwest":{"lat":42.4900111,"lng":23.1909885}},"location":{"lat":42.6977082,"lng":23.3218675},"location_type":"APPROXIMATE","viewport":{"northeast":{"lat":42.7877752,"lng":23.4569049},"southwest":{"lat":42.6030891,"lng":23.1909885}}},"place_id":"ChIJ9Xsxy4KGqkARYF6_aRKgAAQ","types":["locality","political"]}],"status":"OK"}
+[{"address_components":[{"long_name":"Sofia","short_name":"Sofia","types":["locality","political"]},{"long_name":"Sofia City Province","short_name":"Sofia City Province","types":["administrative_area_level_1","political"]},{"long_name":"Bulgaria","short_name":"BG","types":["country","political"]}],"formatted_address":"Sofia, Bulgaria","geometry":{"bounds":{"northeast":{"lat":42.7877752,"lng":23.4569049},"southwest":{"lat":42.4900111,"lng":23.1909885}},"location":{"lat":42.6977082,"lng":23.3218675},"location_type":"APPROXIMATE","viewport":{"northeast":{"lat":42.7877752,"lng":23.4569049},"southwest":{"lat":42.6030891,"lng":23.1909885}}},"place_id":"ChIJ9Xsxy4KGqkARYF6_aRKgAAQ","types":["locality","political"]}]
+{"address_components":[{"long_name":"Sofia","short_name":"Sofia","types":["locality","political"]},{"long_name":"Sofia City Province","short_name":"Sofia City Province","types":["administrative_area_level_1","political"]},{"long_name":"Bulgaria","short_name":"BG","types":["country","political"]}],"formatted_address":"Sofia, Bulgaria","geometry":{"bounds":{"northeast":{"lat":42.7877752,"lng":23.4569049},"southwest":{"lat":42.4900111,"lng":23.1909885}},"location":{"lat":42.6977082,"lng":23.3218675},"location_type":"APPROXIMATE","viewport":{"northeast":{"lat":42.7877752,"lng":23.4569049},"southwest":{"lat":42.6030891,"lng":23.1909885}}},"place_id":"ChIJ9Xsxy4KGqkARYF6_aRKgAAQ","types":["locality","political"]}
+{"lat":42.6977082,"lng":23.3218675}
+http://maps.google.com/maps/api/geocode/json?address=Varna
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Varna",
+               "short_name" : "Varna",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Varna",
+               "short_name" : "Varna",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Varna, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 43.3094528,
+                  "lng" : 28.0559078
+               },
+               "southwest" : {
+                  "lat" : 43.1002294,
+                  "lng" : 27.8299093
+               }
+            },
+            "location" : {
+               "lat" : 43.2140504,
+               "lng" : 27.9147333
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.3094528,
+                  "lng" : 28.0559078
+               },
+               "southwest" : {
+                  "lat" : 43.1002294,
+                  "lng" : 27.8299093
+               }
+            }
+         },
+         "place_id" : "ChIJodfzqotTpEARfIulcRyUJ1c",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+
+{"results":[{"address_components":[{"long_name":"Varna","short_name":"Varna","types":["locality","political"]},{"long_name":"Varna","short_name":"Varna","types":["administrative_area_level_1","political"]},{"long_name":"Bulgaria","short_name":"BG","types":["country","political"]}],"formatted_address":"Varna, Bulgaria","geometry":{"bounds":{"northeast":{"lat":43.3094528,"lng":28.0559078},"southwest":{"lat":43.1002294,"lng":27.8299093}},"location":{"lat":43.2140504,"lng":27.9147333},"location_type":"APPROXIMATE","viewport":{"northeast":{"lat":43.3094528,"lng":28.0559078},"southwest":{"lat":43.1002294,"lng":27.8299093}}},"place_id":"ChIJodfzqotTpEARfIulcRyUJ1c","types":["locality","political"]}],"status":"OK"}
+[{"address_components":[{"long_name":"Varna","short_name":"Varna","types":["locality","political"]},{"long_name":"Varna","short_name":"Varna","types":["administrative_area_level_1","political"]},{"long_name":"Bulgaria","short_name":"BG","types":["country","political"]}],"formatted_address":"Varna, Bulgaria","geometry":{"bounds":{"northeast":{"lat":43.3094528,"lng":28.0559078},"southwest":{"lat":43.1002294,"lng":27.8299093}},"location":{"lat":43.2140504,"lng":27.9147333},"location_type":"APPROXIMATE","viewport":{"northeast":{"lat":43.3094528,"lng":28.0559078},"southwest":{"lat":43.1002294,"lng":27.8299093}}},"place_id":"ChIJodfzqotTpEARfIulcRyUJ1c","types":["locality","political"]}]
+{"address_components":[{"long_name":"Varna","short_name":"Varna","types":["locality","political"]},{"long_name":"Varna","short_name":"Varna","types":["administrative_area_level_1","political"]},{"long_name":"Bulgaria","short_name":"BG","types":["country","political"]}],"formatted_address":"Varna, Bulgaria","geometry":{"bounds":{"northeast":{"lat":43.3094528,"lng":28.0559078},"southwest":{"lat":43.1002294,"lng":27.8299093}},"location":{"lat":43.2140504,"lng":27.9147333},"location_type":"APPROXIMATE","viewport":{"northeast":{"lat":43.3094528,"lng":28.0559078},"southwest":{"lat":43.1002294,"lng":27.8299093}}},"place_id":"ChIJodfzqotTpEARfIulcRyUJ1c","types":["locality","political"]}
+{"lat":43.2140504,"lng":27.9147333}
+http://maps.google.com/maps/api/geocode/json?address=Sofia
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sofia",
+               "short_name" : "Sofia",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Sofia City Province",
+               "short_name" : "Sofia City Province",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Sofia, Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.7877752,
+                  "lng" : 23.4569049
+               },
+               "southwest" : {
+                  "lat" : 42.4900111,
+                  "lng" : 23.1909885
+               }
+            },
+            "location" : {
+               "lat" : 42.6977082,
+               "lng" : 23.3218675
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.7877752,
+                  "lng" : 23.4569049
+               },
+               "southwest" : {
+                  "lat" : 42.6030891,
+                  "lng" : 23.1909885
+               }
+            }
+         },
+         "place_id" : "ChIJ9Xsxy4KGqkARYF6_aRKgAAQ",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+
+{"results":[{"address_components":[{"long_name":"Sofia","short_name":"Sofia","types":["locality","political"]},{"long_name":"Sofia City Province","short_name":"Sofia City Province","types":["administrative_area_level_1","political"]},{"long_name":"Bulgaria","short_name":"BG","types":["country","political"]}],"formatted_address":"Sofia, Bulgaria","geometry":{"bounds":{"northeast":{"lat":42.7877752,"lng":23.4569049},"southwest":{"lat":42.4900111,"lng":23.1909885}},"location":{"lat":42.6977082,"lng":23.3218675},"location_type":"APPROXIMATE","viewport":{"northeast":{"lat":42.7877752,"lng":23.4569049},"southwest":{"lat":42.6030891,"lng":23.1909885}}},"place_id":"ChIJ9Xsxy4KGqkARYF6_aRKgAAQ","types":["locality","political"]}],"status":"OK"}
+[{"address_components":[{"long_name":"Sofia","short_name":"Sofia","types":["locality","political"]},{"long_name":"Sofia City Province","short_name":"Sofia City Province","types":["administrative_area_level_1","political"]},{"long_name":"Bulgaria","short_name":"BG","types":["country","political"]}],"formatted_address":"Sofia, Bulgaria","geometry":{"bounds":{"northeast":{"lat":42.7877752,"lng":23.4569049},"southwest":{"lat":42.4900111,"lng":23.1909885}},"location":{"lat":42.6977082,"lng":23.3218675},"location_type":"APPROXIMATE","viewport":{"northeast":{"lat":42.7877752,"lng":23.4569049},"southwest":{"lat":42.6030891,"lng":23.1909885}}},"place_id":"ChIJ9Xsxy4KGqkARYF6_aRKgAAQ","types":["locality","political"]}]
+{"address_components":[{"long_name":"Sofia","short_name":"Sofia","types":["locality","political"]},{"long_name":"Sofia City Province","short_name":"Sofia City Province","types":["administrative_area_level_1","political"]},{"long_name":"Bulgaria","short_name":"BG","types":["country","political"]}],"formatted_address":"Sofia, Bulgaria","geometry":{"bounds":{"northeast":{"lat":42.7877752,"lng":23.4569049},"southwest":{"lat":42.4900111,"lng":23.1909885}},"location":{"lat":42.6977082,"lng":23.3218675},"location_type":"APPROXIMATE","viewport":{"northeast":{"lat":42.7877752,"lng":23.4569049},"southwest":{"lat":42.6030891,"lng":23.1909885}}},"place_id":"ChIJ9Xsxy4KGqkARYF6_aRKgAAQ","types":["locality","political"]}
+{"lat":42.6977082,"lng":23.3218675}
+https://maps.googleapis.com/maps/api/distancematrix/json?origins=42.6977,23.3219&destinations=43.2141,27.9147&mode=driving&language=en-US&key=AIzaSyDrMTsyXH5f1Ib7GPyKk8aXgnVvWaaKi5E
