@@ -8,20 +8,20 @@
 These pages contain the API documentation of C++ client for Google Maps APIs.
 
 # Contents
-* [client class](./a00047.html) that is the client
-	* [distance_matrix member function](./a00047.html#ac6a0c1904a585c4eb930c17e3dcf2ce9) that returns Google Maps APIs results for distance between 2 points
-	* [direction function](./a00047.html#ac6a0c1904a585c4eb930c17e3dcf2ce9) that returns Google Maps APIs results for query "Route from ... to ..."
-* [points class](./a00063.html) that implements geographical place
-	* [operator |](./a00039.html) with points
+* [client class](./) that is the client
+	* [distance_matrix member function](./) that returns Google Maps APIs results for distance between 2 points
+	* [direction function](./) that returns Google Maps APIs results for query "Route from ... to ..."
+* [points class](./) that implements geographical place
+	* [operator |](./) with points
 
 # Copyright
-    Copyright © 2017 Alex Tsvetanov. The code is licensed under the GNU Public License v.3.
+Copyright © 2017 Alex Tsvetanov. The code is licensed under the GNU Public License v.3.
 
 # Author
-    Alex Tsvetanov
+Alex Tsvetanov
 
 # See also
-    [Alex-Tsvetanov/Google-Maps-API-cpp](https://github.com/Alex-Tsvetanov/Google-Maps-API-cpp) to download the source code
+[Alex-Tsvetanov/Google-Maps-API-cpp](https://github.com/Alex-Tsvetanov/Google-Maps-API-cpp) to download the source code
 
 # Version
-    1.0 
+1.0 
