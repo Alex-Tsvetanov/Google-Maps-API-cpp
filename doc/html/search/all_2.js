@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['output_5fformat_5ft',['output_format_t',['../structGoogle_1_1Maps_1_1API_1_1output__format__t.html',1,'Google::Maps::API']]]
+  ['distance_5fmatrix',['distance_matrix',['../a00040.html#a2167437cf0c3cdc7fa9e9c70643a27f4',1,'Google::Maps::API::client']]]
 ];
