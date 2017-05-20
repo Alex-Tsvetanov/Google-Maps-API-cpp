@@ -9,9 +9,13 @@
 \item 
 \hyperlink{a00047_aa4e453192444e3ed3ae486036e852f03}{client} (std\+::string k, std\+::string \hyperlink{a00047_a4854d3b172e3e823b647897fe8b24f44}{lang}=\char`\"{}en-\/US\char`\"{})
 \item 
-std\+::string \hyperlink{a00047_ac6a0c1904a585c4eb930c17e3dcf2ce9}{distance\+\_\+matrix} (\hyperlink{a00055}{output\+\_\+format\+\_\+t} output, \hyperlink{a00063}{points} origins, \hyperlink{a00063}{points} destinations, \hyperlink{a00051}{mode\+\_\+t} mode=\hyperlink{a00051}{mode\+\_\+t}(\char`\"{}driving\char`\"{}), std\+::string \hyperlink{a00047_a4854d3b172e3e823b647897fe8b24f44}{lang}=\char`\"{}\char`\"{})
+std\+::string \hyperlink{a00047_a9f4b2db3de411d8f2b074ef7659d4558}{distance\+\_\+matrix} (\hyperlink{a00055}{output\+\_\+format\+\_\+t} output, \hyperlink{a00063}{points} origins, \hyperlink{a00063}{points} destinations, \hyperlink{a00051}{mode\+\_\+t} mode=\hyperlink{a00051}{mode\+\_\+t}(\char`\"{}driving\char`\"{}), std\+::string \+\_\+lang=\char`\"{}\char`\"{})
 \item 
-\hyperlink{a00011_ab701e3ac61a85b337ec5c1abaad6742d}{json} \hyperlink{a00047_a8682b0c7b0597c2f7f0585c314459418}{distance\+\_\+matrix} (\hyperlink{a00063}{points} origins, \hyperlink{a00063}{points} destinations, \hyperlink{a00051}{mode\+\_\+t} mode=\hyperlink{a00051}{mode\+\_\+t}(\char`\"{}driving\char`\"{}), std\+::string \hyperlink{a00047_a4854d3b172e3e823b647897fe8b24f44}{lang}=\char`\"{}\char`\"{})
+\hyperlink{a00011_ab701e3ac61a85b337ec5c1abaad6742d}{json} \hyperlink{a00047_a134d42c2ead69f9243bb736ba3c85df2}{distance\+\_\+matrix} (\hyperlink{a00063}{points} origins, \hyperlink{a00063}{points} destinations, \hyperlink{a00051}{mode\+\_\+t} mode=\hyperlink{a00051}{mode\+\_\+t}(\char`\"{}driving\char`\"{}), std\+::string \+\_\+lang=\char`\"{}\char`\"{})
+\item 
+std\+::string \hyperlink{a00047_ac58f6dfedbc7536a1014424374add903}{direction} (\hyperlink{a00055}{output\+\_\+format\+\_\+t} output, \hyperlink{a00059}{point} origins, \hyperlink{a00059}{point} destinations, \hyperlink{a00051}{mode\+\_\+t} mode=\hyperlink{a00051}{mode\+\_\+t}(\char`\"{}driving\char`\"{}), std\+::string \+\_\+lang=\char`\"{}\char`\"{})
+\item 
+\hyperlink{a00011_ab701e3ac61a85b337ec5c1abaad6742d}{json} \hyperlink{a00047_ab9902f76113b10b5e5ef19054e01ffa4}{direction} (\hyperlink{a00059}{point} origins, \hyperlink{a00059}{point} destinations, \hyperlink{a00051}{mode\+\_\+t} mode=\hyperlink{a00051}{mode\+\_\+t}(\char`\"{}driving\char`\"{}), std\+::string \+\_\+lang=\char`\"{}\char`\"{})
 \end{DoxyCompactItemize}
 \subsection*{Private Member Functions}
 \begin{DoxyCompactItemize}
@@ -43,17 +47,29 @@ std\+::string \hyperlink{a00047_a4854d3b172e3e823b647897fe8b24f44}{lang}
 \subsubsection{\texorpdfstring{choose()}{choose()}}
 {\footnotesize\ttfamily const std\+::string Google\+::\+Maps\+::\+A\+P\+I\+::client\+::choose (\begin{DoxyParamCaption}\item[{std\+::string}]{new\+\_\+lang }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
 
-\mbox{\Hypertarget{a00047_ac6a0c1904a585c4eb930c17e3dcf2ce9}\label{a00047_ac6a0c1904a585c4eb930c17e3dcf2ce9}} 
+\mbox{\Hypertarget{a00047_ac58f6dfedbc7536a1014424374add903}\label{a00047_ac58f6dfedbc7536a1014424374add903}} 
+\index{Google\+::\+Maps\+::\+A\+P\+I\+::client@{Google\+::\+Maps\+::\+A\+P\+I\+::client}!direction@{direction}}
+\index{direction@{direction}!Google\+::\+Maps\+::\+A\+P\+I\+::client@{Google\+::\+Maps\+::\+A\+P\+I\+::client}}
+\subsubsection{\texorpdfstring{direction()}{direction()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::string Google\+::\+Maps\+::\+A\+P\+I\+::client\+::direction (\begin{DoxyParamCaption}\item[{\hyperlink{a00055}{output\+\_\+format\+\_\+t}}]{output,  }\item[{\hyperlink{a00059}{point}}]{origins,  }\item[{\hyperlink{a00059}{point}}]{destinations,  }\item[{\hyperlink{a00051}{mode\+\_\+t}}]{mode = {\ttfamily \hyperlink{a00051}{mode\+\_\+t}(\char`\"{}driving\char`\"{})},  }\item[{std\+::string}]{\+\_\+lang = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{a00047_ab9902f76113b10b5e5ef19054e01ffa4}\label{a00047_ab9902f76113b10b5e5ef19054e01ffa4}} 
+\index{Google\+::\+Maps\+::\+A\+P\+I\+::client@{Google\+::\+Maps\+::\+A\+P\+I\+::client}!direction@{direction}}
+\index{direction@{direction}!Google\+::\+Maps\+::\+A\+P\+I\+::client@{Google\+::\+Maps\+::\+A\+P\+I\+::client}}
+\subsubsection{\texorpdfstring{direction()}{direction()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{a00011_ab701e3ac61a85b337ec5c1abaad6742d}{json} Google\+::\+Maps\+::\+A\+P\+I\+::client\+::direction (\begin{DoxyParamCaption}\item[{\hyperlink{a00059}{point}}]{origins,  }\item[{\hyperlink{a00059}{point}}]{destinations,  }\item[{\hyperlink{a00051}{mode\+\_\+t}}]{mode = {\ttfamily \hyperlink{a00051}{mode\+\_\+t}(\char`\"{}driving\char`\"{})},  }\item[{std\+::string}]{\+\_\+lang = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{a00047_a9f4b2db3de411d8f2b074ef7659d4558}\label{a00047_a9f4b2db3de411d8f2b074ef7659d4558}} 
 \index{Google\+::\+Maps\+::\+A\+P\+I\+::client@{Google\+::\+Maps\+::\+A\+P\+I\+::client}!distance\+\_\+matrix@{distance\+\_\+matrix}}
 \index{distance\+\_\+matrix@{distance\+\_\+matrix}!Google\+::\+Maps\+::\+A\+P\+I\+::client@{Google\+::\+Maps\+::\+A\+P\+I\+::client}}
 \subsubsection{\texorpdfstring{distance\+\_\+matrix()}{distance\_matrix()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
-{\footnotesize\ttfamily std\+::string Google\+::\+Maps\+::\+A\+P\+I\+::client\+::distance\+\_\+matrix (\begin{DoxyParamCaption}\item[{\hyperlink{a00055}{output\+\_\+format\+\_\+t}}]{output,  }\item[{\hyperlink{a00063}{points}}]{origins,  }\item[{\hyperlink{a00063}{points}}]{destinations,  }\item[{\hyperlink{a00051}{mode\+\_\+t}}]{mode = {\ttfamily \hyperlink{a00051}{mode\+\_\+t}(\char`\"{}driving\char`\"{})},  }\item[{std\+::string}]{lang = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+{\footnotesize\ttfamily std\+::string Google\+::\+Maps\+::\+A\+P\+I\+::client\+::distance\+\_\+matrix (\begin{DoxyParamCaption}\item[{\hyperlink{a00055}{output\+\_\+format\+\_\+t}}]{output,  }\item[{\hyperlink{a00063}{points}}]{origins,  }\item[{\hyperlink{a00063}{points}}]{destinations,  }\item[{\hyperlink{a00051}{mode\+\_\+t}}]{mode = {\ttfamily \hyperlink{a00051}{mode\+\_\+t}(\char`\"{}driving\char`\"{})},  }\item[{std\+::string}]{\+\_\+lang = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-\mbox{\Hypertarget{a00047_a8682b0c7b0597c2f7f0585c314459418}\label{a00047_a8682b0c7b0597c2f7f0585c314459418}} 
+\mbox{\Hypertarget{a00047_a134d42c2ead69f9243bb736ba3c85df2}\label{a00047_a134d42c2ead69f9243bb736ba3c85df2}} 
 \index{Google\+::\+Maps\+::\+A\+P\+I\+::client@{Google\+::\+Maps\+::\+A\+P\+I\+::client}!distance\+\_\+matrix@{distance\+\_\+matrix}}
 \index{distance\+\_\+matrix@{distance\+\_\+matrix}!Google\+::\+Maps\+::\+A\+P\+I\+::client@{Google\+::\+Maps\+::\+A\+P\+I\+::client}}
 \subsubsection{\texorpdfstring{distance\+\_\+matrix()}{distance\_matrix()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
-{\footnotesize\ttfamily \hyperlink{a00011_ab701e3ac61a85b337ec5c1abaad6742d}{json} Google\+::\+Maps\+::\+A\+P\+I\+::client\+::distance\+\_\+matrix (\begin{DoxyParamCaption}\item[{\hyperlink{a00063}{points}}]{origins,  }\item[{\hyperlink{a00063}{points}}]{destinations,  }\item[{\hyperlink{a00051}{mode\+\_\+t}}]{mode = {\ttfamily \hyperlink{a00051}{mode\+\_\+t}(\char`\"{}driving\char`\"{})},  }\item[{std\+::string}]{lang = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+{\footnotesize\ttfamily \hyperlink{a00011_ab701e3ac61a85b337ec5c1abaad6742d}{json} Google\+::\+Maps\+::\+A\+P\+I\+::client\+::distance\+\_\+matrix (\begin{DoxyParamCaption}\item[{\hyperlink{a00063}{points}}]{origins,  }\item[{\hyperlink{a00063}{points}}]{destinations,  }\item[{\hyperlink{a00051}{mode\+\_\+t}}]{mode = {\ttfamily \hyperlink{a00051}{mode\+\_\+t}(\char`\"{}driving\char`\"{})},  }\item[{std\+::string}]{\+\_\+lang = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
 

@@ -12,9 +12,8 @@ namespace Google
 	{
 		struct point
 		{
-		private:
-			float latitude, longitude;
 		public:	
+			float latitude, longitude;
 			const float Latitude () const { return latitude; }
 			const float Longitude () const { return longitude; }
 
@@ -96,6 +95,7 @@ namespace Google
 			{
 				point_set.push_back (a);
 			}
+			operator point () const { return *(get ().begin ()); }
 		};
 	}
 }

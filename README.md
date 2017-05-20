@@ -10,6 +10,7 @@ These pages contain the API documentation of C++ client for Google Maps APIs.
 # Contents
 * [client class](./a00047.html) that is the client
 	* [distance_matrix member function](./a00047.html#ac6a0c1904a585c4eb930c17e3dcf2ce9) that returns Google Maps APIs results for distance between 2 points
+	* [direction function](./a00047.html#ac6a0c1904a585c4eb930c17e3dcf2ce9) that returns Google Maps APIs results for query "Route from ... to ..."
 * [points class](./a00063.html) that implements geographical place
 	* [operator |](./a00039.html) with points
 

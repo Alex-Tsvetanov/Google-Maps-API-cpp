@@ -40,9 +40,9 @@ namespace Google
 					this->lang = lang;
 				}
 
-				std::string distance_matrix (output_format_t output, points origins, points destinations, mode_t mode = mode_t("driving"), std::string lang = "")
+				std::string distance_matrix (output_format_t output, points origins, points destinations, mode_t mode = mode_t("driving"), std::string _lang = "")
 				{
-					lang = choose (lang);
+					_lang = choose (_lang);
 					std::string hyperlink = "https://maps.googleapis.com/maps/api/distancematrix/" + output.get () + "?origins=" + origins.to_string () + "&destinations=" + destinations.to_string () + "&mode=" + mode.get () + "&language=" + lang + "&key=" + this->key;
 
 					std::clog << hyperlink << std::endl;
@@ -50,10 +50,26 @@ namespace Google
 					return curlpp::get (hyperlink);
 				}
 
-				json distance_matrix (points origins, points destinations, mode_t mode = mode_t("driving"), std::string lang = "")
+				json distance_matrix (points origins, points destinations, mode_t mode = mode_t("driving"), std::string _lang = "")
 				{
-					lang = choose (lang);
-					std::string hyperlink = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + origins.to_string () + "&destinations=" + destinations.to_string () + "&mode=" + mode.get () + "&language=" + lang + "&key=" + this->key;
+					_lang = choose (_lang);
+					std::string hyperlink = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + origins.to_string () + "&destinations=" + destinations.to_string () + "&mode=" + mode.get () + "&language=" + _lang + "&key=" + this->key;
+
+					return json::parse (curlpp::get (hyperlink));
+				}
+
+				std::string direction (output_format_t output, point origins, point destinations, mode_t mode = mode_t("driving"), std::string _lang = "")
+				{
+					_lang = choose (_lang);
+					std::string hyperlink = "https://maps.googleapis.com/maps/api/directions/" + output.get () + "?origin=" + origins.to_string () + "&destination=" + destinations.to_string () + "&mode=" + mode.get () + "&language=" + _lang + "&key=" + this->key;
+
+					return curlpp::get (hyperlink);
+				}
+
+				json direction (point origins, point destinations, mode_t mode = mode_t("driving"), std::string _lang = "")
+				{
+					_lang = choose (_lang);
+					std::string hyperlink = "https://maps.googleapis.com/maps/api/directions/json?origin=" + origins.to_string () + "&destination=" + destinations.to_string () + "&mode=" + mode.get () + "&language=" + _lang + "&key=" + this->key;
 
 					return json::parse (curlpp::get (hyperlink));
 				}
