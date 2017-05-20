@@ -6,8 +6,7 @@ var indexSectionsWithContent =
   3: "acjlmopru",
   4: "acdgilmoptu",
   5: "ciklmop",
-  6: "j",
-  7: "r"
+  6: "j"
 };
 
 var indexSectionNames =
@@ -18,8 +17,7 @@ var indexSectionNames =
   3: "files",
   4: "functions",
   5: "variables",
-  6: "typedefs",
-  7: "pages"
+  6: "typedefs"
 };
 
 var indexSectionLabels =
@@ -30,7 +28,6 @@ var indexSectionLabels =
   3: "Files",
   4: "Functions",
   5: "Variables",
-  6: "Typedefs",
-  7: "Pages"
+  6: "Typedefs"
 };
 
