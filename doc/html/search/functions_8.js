@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['json_5fpointer',['json_pointer',['../classnlohmann_1_1basic__json_1_1json__pointer.html#abaa66b0d30811b8a8670a673c686b75a',1,'nlohmann::basic_json::json_pointer']]],
-  ['json_5freverse_5fiterator',['json_reverse_iterator',['../classnlohmann_1_1basic__json_1_1json__reverse__iterator.html#a1270fe04d4801caf51e7464273305ba8',1,'nlohmann::basic_json::json_reverse_iterator::json_reverse_iterator(const typename base_iterator::iterator_type &amp;it) noexcept'],['../classnlohmann_1_1basic__json_1_1json__reverse__iterator.html#af04099cd32946ab37cfa6004ad5a7863',1,'nlohmann::basic_json::json_reverse_iterator::json_reverse_iterator(const base_iterator &amp;it) noexcept']]]
+  ['point',['point',['../a00059.html#abcf782dee7c73565e3db32b3d3d8c3f7',1,'Google::Maps::point::point(float x, float y)'],['../a00059.html#a5c633bface725d08067991fcfa0d0953',1,'Google::Maps::point::point(const std::string &amp;name)']]],
+  ['points',['points',['../a00063.html#aa6fe71328e193ec7d73795733a242c8e',1,'Google::Maps::points::points(float x, float y)'],['../a00063.html#aea068cb11179bbb1ba6b1bbb0460fc07',1,'Google::Maps::points::points(const std::string &amp;name)'],['../a00063.html#a667223cf7d81616099a86abc28f165c6',1,'Google::Maps::points::points(const char *name)'],['../a00063.html#a76cef451acd0135c956398368c43f029',1,'Google::Maps::points::points(const point &amp;p)']]]
 ];
