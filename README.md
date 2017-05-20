@@ -23,4 +23,4 @@ These pages contain the API documentation of C++ client for Google Maps APIs.
     [Alex-Tsvetanov/Google-Maps-API-cpp](https://github.com/Alex-Tsvetanov/Google-Maps-API-cpp) to download the source code
 
 # Version
-    2.1.1 
+    1.0 
